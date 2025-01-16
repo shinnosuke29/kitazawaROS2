@@ -40,5 +40,5 @@
 
 3. **トピックの確認**
 トピックが正しく発行されているかを確認するには、以下を実行します：
-
-ros2 topic echo /lottery
+   ```bash
+   ros2 topic echo /lottery
