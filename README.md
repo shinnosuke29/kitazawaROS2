@@ -27,25 +27,18 @@
     ```
 
 ## 実行方法
-1.**ワークスペースのビルド**:
-   ROS 2ワークスペースのルートディレクトリで以下を実行します。
+1. **ワークスペースのビルド**  
+   ROS 2ワークスペースのルートディレクトリで以下を実行します：  
    ```bash
    colcon build --packages-select my_package
    source ~/ros2_ws/install/setup.bash
 
-2.**ノードの起動**:
+2. **ノードの起動**  
+以下のコマンドでノードを起動します：
    ```bash
    ros2 run my_package lottery_publisher
 
-3.**トピックの確認: トピックが正しく発行されているかを確認するには、以下を実行します。**:
-    ```bash
-    ros2 topic echo /lottery
+3. **トピックの確認**
+トピックが正しく発行されているかを確認するには、以下を実行します：
 
-## 補足
-
-    動作確認: ノードのログとトピックの出力を確認してください。
-
-
----
-
-
+ros2 topic echo /lottery
